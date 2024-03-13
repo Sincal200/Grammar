@@ -14,7 +14,7 @@ expresion : IDENTIFIER operador NUMERO;
 
 otra_instruccion : expresion ';' | bloque;
 
-operador : '>' | '<' | '>=' | '<=' | '==' | '!=';
+operador : '>' | '<' | '>=' | '<=' | '==' | '!=' | '=';
 
 IDENTIFIER : [a-zA-Z]+;
 NUMERO : [0-9]+;
